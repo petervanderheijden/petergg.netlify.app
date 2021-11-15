@@ -12,9 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="/assets/images/logo.png">
-    <link rel="stylesheet" href="/assets/styles/main.css">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./assets/images/logo.png">
+    <link rel="stylesheet" href="./assets/styles/main.css">
     <meta name="theme-color" content="#f8f8f8">
     <meta property="og:title" content="PeterGG">
     <meta property="og:description" content="A front-end developer">
@@ -28,23 +28,21 @@
     <title>PeterGG</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul class="nav">
-                <img id="nav__logo" src="/assets/images/logo.png">
-                <li><a id="active" href="">home</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">projects</a></li>
-                <i id="nav__hamburger" class="fas fa-bars" onclick="myFunction()" ></i>
-                <div class="nav__socials">
-                    <li><a href="https://www.youtube.com/channel/UC_n89O8Um7DfHvWUImK_cWA" target="_blank"><i class="fab fa-youtube"></i></a></li>
-                    <li><a href="https://github.com/PeterGG-1" target="_blank"><i class="fab fa-github"></i></a></li>
-                    <li><a href="https://www.instagram.com/peter_denhaagg/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                </div>
+    <nav class="navbar">
+        <div class="navbar__profile">
+            <img id="profile__image" src="./assets/images/logo.png">
+            <h2 id="profile__username">PeterGG</h2>
+        </div>
+        <div class="navbar__links">
+            <ul>
+                <li><a id="active" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
             </ul>
-        </nav>
-    </header>
+            <i id="nav__hamburger" onclick="myFunction()" class="fas fa-bars"></i>
+        </div>
+    </nav>
 
-    <script src="/assets/styles/main.js"></script>
+    <script src="./assets/scripts/main.js"></script>
 </body>
 </html>
