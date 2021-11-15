@@ -1,5 +1,5 @@
-@import url(/assets/styles/files/nav.css);
-@import url(/assets/styles/files/responsive.css);
+@import url(./assets/styles/files/nav.css);
+@import url(./assets/styles/files/responsive.css);
 
 * {
     box-sizing: border-box;
