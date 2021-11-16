@@ -1,5 +1,5 @@
-@import url(https://petergg.netlify.app/assets/styles/files/nav.css);
-@import url(https://petergg.netlify.app/assets/styles/files/responsive.css);
+@import url(./files/nav.css);
+@import url(./files/responsive.css);
 
 * {
     box-sizing: border-box;
